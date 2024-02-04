@@ -1,0 +1,18 @@
+.blog-section {
+  margin-top: 30px; /* Ajustez la valeur selon vos besoins */
+  margin-bottom: 30px; /* Ajustez la valeur selon vos besoins */
+}
+
+
+.blog-section p {
+  margin-bottom: 70px; /* Ajustez la valeur selon vos besoins */
+}
+
+.chart {
+  width: 100%;
+  min-height: 500px;
+}
+
+.row {
+  margin: 0 !important;
+}

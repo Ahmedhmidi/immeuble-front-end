@@ -1,0 +1,54 @@
+.contact-container {
+    margin-top: 50px; /* Ajustez la valeur selon vos besoins */
+}
+
+.n2-ss-no-bga-fixed *, .n2-ss-slider.n2-ss-mobileLandscape .n2-ss-slider-1, .n2-ss-slider.n2-ss-mobilePortrait .n2-ss-slider-1, .n2-ss-slider.n2-ss-tabletLandscape .n2-ss-slider-1, .n2-ss-slider.n2-ss-tabletPortrait .n2-ss-slider-1, .n2-ss-slider.n2-ss-mobileLandscape .n2-ss-slider-2, .n2-ss-slider.n2-ss-mobilePortrait .n2-ss-slider-2, .n2-ss-slider.n2-ss-tabletLandscape .n2-ss-slider-2, .n2-ss-slider.n2-ss-tabletPortrait .n2-ss-slider-2 {
+    background-attachment: scroll!important;
+}
+.n2-ss-slider {
+    z-index: 3;
+    position: relative;
+    text-align: left;
+    width: 100%;
+    min-height: 1px;
+}
+
+.n2-ss-slider {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr auto;
+    -webkit-font-smoothing: antialiased;
+    font-size: 16px;
+    line-height: 1;
+    user-select: none;
+    --ss-fs: flex-start;
+    --ss-fe: flex-end;
+    --ss-r: row;
+    --ss-rr: row-reverse;
+}
+
+.n2-section-smartslider {
+    position: relative;
+    width: 100%;
+    outline: 0;
+    --widget-offset: 0px;
+}
+
+.ls {
+    background-color: #fff;
+    color: #7f7f7f;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+
+::selection {
+    color: #fff;
+    background-color: #f1871c;
+}
+
+
+#success_message{ display: none;}

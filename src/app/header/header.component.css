@@ -1,0 +1,29 @@
+#service .card{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.23);
+    padding: 25px;
+    text-align: justify;
+    height: 320px;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    box-shadow: 0 0 1px solid rgba(0, 0, 0, 0.120);
+    border-radius: 0.20rem;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centre le contenu horizontalement */
+    justify-content: center; /* Centre le contenu verticalement */
+}
+
+.card-body img {
+    margin-bottom: 15px; /* Ajoute un espace sous l'image */
+}
